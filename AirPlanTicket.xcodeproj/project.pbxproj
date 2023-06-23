@@ -17,6 +17,7 @@
 		4B1D01932A4505F0003D790A /* AirPlanTicketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D01922A4505F0003D790A /* AirPlanTicketTests.m */; };
 		4B1D019D2A4505F0003D790A /* AirPlanTicketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D019C2A4505F0003D790A /* AirPlanTicketUITests.m */; };
 		4B1D019F2A4505F0003D790A /* AirPlanTicketUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D019E2A4505F0003D790A /* AirPlanTicketUITestsLaunchTests.m */; };
+		4B1D01AF2A4507B4003D790A /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D01AE2A4507B4003D790A /* CheckoutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4B1D01982A4505F0003D790A /* AirPlanTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlanTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1D019C2A4505F0003D790A /* AirPlanTicketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlanTicketUITests.m; sourceTree = "<group>"; };
 		4B1D019E2A4505F0003D790A /* AirPlanTicketUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlanTicketUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4B1D01AD2A45079E003D790A /* CheckoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckoutViewController.h; sourceTree = "<group>"; };
+		4B1D01AE2A4507B4003D790A /* CheckoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckoutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4B1D01842A4505F0003D790A /* LaunchScreen.storyboard */,
 				4B1D01872A4505F0003D790A /* Info.plist */,
 				4B1D01882A4505F0003D790A /* main.m */,
+				4B1D01AD2A45079E003D790A /* CheckoutViewController.h */,
+				4B1D01AE2A4507B4003D790A /* CheckoutViewController.m */,
 			);
 			path = AirPlanTicket;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1D017E2A4505EF003D790A /* ViewController.m in Sources */,
+				4B1D01AF2A4507B4003D790A /* CheckoutViewController.m in Sources */,
 				4B1D01782A4505EF003D790A /* AppDelegate.m in Sources */,
 				4B1D01892A4505F0003D790A /* main.m in Sources */,
 				4B1D017B2A4505EF003D790A /* SceneDelegate.m in Sources */,

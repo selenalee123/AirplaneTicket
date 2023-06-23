@@ -1,14 +1,10 @@
-//
-//  ViewController.h
-//  AirPlanTicket
-//
-//  Created by kk on 2023-06-22.
-//
-
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextField *ticketNumberTextField;
+@property (weak, nonatomic) IBOutlet UIPickerView *ticketTypePickerView;
+@property (weak, nonatomic) IBOutlet UITextView *ticketListTextView;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
-
