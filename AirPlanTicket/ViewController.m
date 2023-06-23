@@ -31,7 +31,6 @@
     
     NSInteger ticketCount = [ticketNumber integerValue];
     if (ticketCount <= 0) {
-        // Show an error message, ticket count should be a positive number
         return;
     }
     
